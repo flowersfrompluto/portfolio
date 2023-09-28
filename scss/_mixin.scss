@@ -1,0 +1,36 @@
+
+@mixin default($padding, $margin, $boxSizing, $fontFamily){
+    padding: $padding;
+    margin: $margin;
+    box-sizing: $boxSizing;
+    font-family: $fontFamily;
+}
+
+@mixin aTags($textDecor, $navTextColor, $navFontSize){
+    text-decoration: $textDecor;
+    color: $navTextColor;
+    font-size: $navFontSize;
+}
+
+@mixin background($bgURL, $bgSize, $bgRepeat){
+    background-image: $bgURL;
+    background-size: $bgSize;
+    background-repeat: $bgRepeat;
+}
+
+@mixin displayGrid($grid, $gridTemplate, $gap){
+    display: $grid;
+    grid-template-columns: $gridTemplate;
+    gap: $gap;
+}
+
+@mixin h2Texts($h2Font, $h2ColorRed, $paddingH2){
+    font-size: $h2Font;
+    color: $h2ColorRed;
+    padding: $paddingH2;
+}
+
+@mixin pTexts($pFont, $paddingP){
+    font-size: $pFont;
+    padding: $paddingP;
+}
