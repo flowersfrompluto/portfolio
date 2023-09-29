@@ -24,10 +24,11 @@
     gap: $gap;
 }
 
-@mixin h2Texts($h2Font, $h2ColorRed, $paddingH2){
+@mixin h2Texts($h2Font, $h2ColorRed, $paddingH2, $h1Font){
     font-size: $h2Font;
     color: $h2ColorRed;
     padding: $paddingH2;
+    font-family: $h1Font;
 }
 
 @mixin pTexts($pFont, $paddingP){

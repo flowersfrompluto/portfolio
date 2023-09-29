@@ -14,7 +14,7 @@ a {
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 25px;
+  padding: 5px;
   background-color: #F8F9FA;
   position: fixed;
   z-index: 99;
@@ -26,42 +26,59 @@ nav .logo {
   padding-left: 150px;
 }
 nav .logo img {
-  width: 65%;
+  width: 45%;
 }
 nav .navLinks a {
-  color: #EC2E57;
   width: 60%;
   padding-right: 50px;
+}
+nav .navLinks a:hover {
+  color: #EC2E57;
+  text-transform: uppercase;
 }
 
 .row1 {
   padding-top: 350px;
   padding-left: 250px;
+  height: 100vh;
   background-image: url(../img/harry1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
 }
 .row1 h1 {
+  font-family: "Lemonada", cursive;
   font-size: 80px;
+  font-weight: 600;
+  color: whitesmoke;
 }
 .row1 p {
   font-size: 20px;
   width: 700px;
-  padding: 10px 0px;
+  padding: 0px 0px 25px 0px;
+  color: whitesmoke;
 }
 .row1 a {
-  font-size: 30px;
+  font-size: 20px;
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+  border-radius: 50px;
+  padding: 10px;
+}
+.row1 a:hover {
   color: #EC2E57;
+  border: none;
+  border: 1px solid #EC2E57;
+  font-weight: 600;
 }
 
 .row2 {
   padding: 20px;
 }
 .row2 h2 {
-  font-size: 80px;
+  font-size: 50px;
   color: #EC2E57;
   padding: 50px 50px 0px 50px;
+  font-family: "Lemonada", cursive;
 }
 .row2 p {
   font-size: 25px;
@@ -75,12 +92,49 @@ nav .navLinks a {
 }
 .row2 .contents img {
   width: 500px;
-  border: 1px solid gainsboro;
 }
 .row2 .contents p {
-  color: #EC2E57;
+  color: black;
   text-transform: capitalize;
   font-weight: 600;
+  padding-top: 25px;
+}
+.row2 .contents .image1 {
+  border: 1px solid gainsboro;
+  position: relative;
+}
+.row2 .contents .absolute {
+  position: absolute;
+  opacity: 1;
+}
+.row2 .contents .relative {
+  position: relative;
+  opacity: 0;
+}
+.row2 .row2Col1 .relative:hover,
+.row2 .row2Col2 .relative:hover,
+.row2 .row2Col3 .relative:hover,
+.row2 .row2Col4 .relative:hover,
+.row2 .row2Col5 .relative:hover,
+.row2 .row2Col6 .relative:hover {
+  opacity: 1;
+}
+.row2 .row2Col1 :hover p,
+.row2 .row2Col2 :hover p,
+.row2 .row2Col3 :hover p,
+.row2 .row2Col4 :hover p,
+.row2 .row2Col5 :hover p,
+.row2 .row2Col6 :hover p {
+  color: #EC2E57;
+  font-style: italic;
+}
+.row2 .row2Col1 .image1:hover .absolute,
+.row2 .row2Col2 .image1:hover .absolute,
+.row2 .row2Col3 .image1:hover .absolute,
+.row2 .row2Col4 .image1:hover .absolute,
+.row2 .row2Col5 .image1:hover .absolute,
+.row2 .row2Col6 .image1:hover .absolute {
+  opacity: 0;
 }
 
 .row3 {
@@ -89,9 +143,10 @@ nav .navLinks a {
   background-repeat: no-repeat;
 }
 .row3 h2 {
-  font-size: 80px;
+  font-size: 50px;
   color: #EC2E57;
   padding: 50px 50px 0px 50px;
+  font-family: "Lemonada", cursive;
 }
 .row3 .txt {
   font-size: 25px;
@@ -119,23 +174,20 @@ nav .navLinks a {
   width: 700px;
 }
 .row3 .comments .row3Col1 p, .row3 .comments .row3Col4 p, .row3 .comments .row3Col3 p, .row3 .comments .row3Col2 p {
-  font-size: 25px;
+  font-size: 18px;
   font-style: italic;
 }
-.row3 .comments .row3Col1 p span, .row3 .comments .row3Col4 p span, .row3 .comments .row3Col3 p span, .row3 .comments .row3Col2 p span {
-  color: #EC2E57;
-  font-weight: 800;
-}
 .row3 .comments .row3Col1 h4, .row3 .comments .row3Col4 h4, .row3 .comments .row3Col3 h4, .row3 .comments .row3Col2 h4 {
-  font-size: 25px;
+  font-size: 20px;
   color: #EC2E57;
   padding-top: 15px;
   text-transform: uppercase;
 }
 .row4 h2 {
-  font-size: 80px;
+  font-size: 50px;
   color: #EC2E57;
   padding: 50px 50px 0px 50px;
+  font-family: "Lemonada", cursive;
 }
 .row4 p {
   font-size: 25px;
@@ -155,13 +207,13 @@ nav .navLinks a {
 }
 
 .row5 {
-  padding-top: 25px;
+  padding-top: 50px;
 }
 .row5 h3 {
   text-align: center;
-  font-size: 25px;
-  padding: 20px 0px 50px 0px;
-  color: #EC2E57;
+  font-size: 20px;
+  padding: 30px 0px 50px 0px;
+  color: black;
 }
 .row5 .socials {
   display: flex;
@@ -177,6 +229,26 @@ nav .navLinks a {
 }
 .row5 p {
   padding: 50px;
+}
+.row5 .linkedIn,
+.row5 .insta,
+.row5 .facebook,
+.row5 .whatsapp,
+.row5 .twitter,
+.row5 .gmail,
+.row5 .github {
+  opacity: 0.3;
+  transform: scale(0.8);
+}
+.row5 .linkedIn:hover,
+.row5 .insta:hover,
+.row5 .facebook:hover,
+.row5 .whatsapp:hover,
+.row5 .twitter:hover,
+.row5 .gmail:hover,
+.row5 .github:hover {
+  transform: scale(1.3);
+  opacity: 1;
 }
 
 /*# sourceMappingURL=style.css.map */
