@@ -38,16 +38,16 @@ nav .navLinks a:hover {
 }
 
 .row1 {
-  padding-top: 350px;
-  padding-left: 250px;
+  padding-top: 220px;
+  padding-left: 100px;
   height: 100vh;
   background-image: url(../img/harry1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .row1 h1 {
-  font-family: "Lemonada", cursive;
-  font-size: 80px;
+  font-family: "Dancing Script", cursive;
+  font-size: 100px;
   font-weight: 600;
   color: whitesmoke;
 }
@@ -75,10 +75,10 @@ nav .navLinks a:hover {
   padding: 20px;
 }
 .row2 h2 {
-  font-size: 50px;
+  font-size: 70px;
   color: #EC2E57;
   padding: 50px 50px 0px 50px;
-  font-family: "Lemonada", cursive;
+  font-family: "Dancing Script", cursive;
 }
 .row2 p {
   font-size: 25px;
@@ -91,13 +91,14 @@ nav .navLinks a:hover {
   text-align: center;
 }
 .row2 .contents img {
-  width: 500px;
+  width: 400px;
 }
 .row2 .contents p {
   color: black;
   text-transform: capitalize;
   font-weight: 600;
   padding-top: 25px;
+  font-family: "Dancing Script", cursive;
 }
 .row2 .contents .image1 {
   border: 1px solid gainsboro;
@@ -143,10 +144,10 @@ nav .navLinks a:hover {
   background-repeat: no-repeat;
 }
 .row3 h2 {
-  font-size: 50px;
+  font-size: 70px;
   color: #EC2E57;
   padding: 50px 50px 0px 50px;
-  font-family: "Lemonada", cursive;
+  font-family: "Dancing Script", cursive;
 }
 .row3 .txt {
   font-size: 25px;
@@ -184,10 +185,10 @@ nav .navLinks a:hover {
   text-transform: uppercase;
 }
 .row4 h2 {
-  font-size: 50px;
+  font-size: 70px;
   color: #EC2E57;
   padding: 50px 50px 0px 50px;
-  font-family: "Lemonada", cursive;
+  font-family: "Dancing Script", cursive;
 }
 .row4 p {
   font-size: 25px;
@@ -203,7 +204,7 @@ nav .navLinks a:hover {
   right: 0;
 }
 .row4 .row4img img {
-  width: 450px;
+  width: 400px;
 }
 
 .row5 {

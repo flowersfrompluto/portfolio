@@ -40,14 +40,14 @@ nav {
 }
 
 .row1 {
-    padding-top: 350px;
-    padding-left: 250px;
+    padding-top: 220px;
+    padding-left: 100px;
     height: 100vh;
     @include background($bgURL, $bgSize, $bgRepeat);
 
     & h1 {
         font-family: $h1Font;
-        font-size: 80px;
+        font-size: 100px;
         font-weight: 600;
         color: $Whitesmoke;
     }
@@ -91,7 +91,7 @@ nav {
         text-align: $alignCenter;
 
         & img {
-            width: 500px;
+            width: 400px;
         }
 
         & p {
@@ -99,6 +99,7 @@ nav {
             text-transform: capitalize;
             font-weight: 600;
             padding-top: 25px;
+            font-family: $h1Font;
         }
 
         & .image1 {
@@ -228,7 +229,7 @@ nav {
         right: 0;
 
         & img {
-            width: 450px;
+            width: 400px;
         }
     }
 }
